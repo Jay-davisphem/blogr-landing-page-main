@@ -1,0 +1,524 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+html {
+  margin: 0;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.attribution {
+  color: #baabab;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  margin: 0;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    max-width: 375px;
+  }
+}
+@media only screen and (min-width: 376px) {
+  body {
+    max-width: 1440px;
+  }
+  body header {
+    color: white;
+    width: 112%;
+  }
+  body header nav {
+    color: white;
+    display: flex;
+    background: transparent;
+    box-shadow: none;
+    position: absolute;
+    top: 1.8rem;
+    left: 20rem;
+    margin-right: 0;
+  }
+  body header nav ul {
+    margin-right: 0;
+    padding-right: 2rem;
+  }
+  body header nav hr {
+    display: none;
+  }
+  body header nav aside {
+    margin-left: 25rem;
+    margin-top: 2.5rem;
+  }
+  body header nav aside a {
+    color: white;
+  }
+  body header nav button {
+    font-family: "Ubuntu", sans-serif;
+    width: 12%;
+    background: white;
+    border-radius: 5.5rem;
+    height: 3.9rem;
+    border: 0;
+    outline: none;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+  }
+  body header nav button a, body header nav button a:link {
+    text-decoration: none;
+    color: #ff3d54;
+  }
+  body header nav button:hover, body header nav button:active, body header nav button:focus {
+    font-family: "Ubuntu", sans-serif;
+    width: 12%;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 5.5rem;
+    height: 3.9rem;
+    border: 0;
+    outline: none;
+  }
+  body header nav button:hover a, body header nav button:hover a:link, body header nav button:active a, body header nav button:active a:link, body header nav button:focus a, body header nav button:focus a:link {
+    text-decoration: none;
+    color: white;
+  }
+  body header button {
+    font-family: "Ubuntu", sans-serif;
+    width: 10%;
+    background: white;
+    border-radius: 5.5rem;
+    height: 3.9rem;
+    border: 0;
+    outline: none;
+  }
+  body header button a, body header button a:link {
+    text-decoration: none;
+    color: #ff3d54;
+  }
+  body header .but-fir:hover, body header .but-fir:active, body header .but-fir:focus {
+    font-family: "Ubuntu", sans-serif;
+    width: 10%;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 5.5rem;
+    height: 3.9rem;
+    border: 0;
+    outline: none;
+  }
+  body header .but-fir:hover a, body header .but-fir:hover a:link, body header .but-fir:active a, body header .but-fir:active a:link, body header .but-fir:focus a, body header .but-fir:focus a:link {
+    text-decoration: none;
+    color: white;
+  }
+  body header .but-sec {
+    border: 0.1rem solid white;
+    background: transparent;
+  }
+  body header .but-sec a {
+    color: white;
+  }
+  body header .but-sec a:hover, body header .but-sec a:active, body header .but-sec a:focus {
+    color: #ff3d54;
+  }
+  body header .but-fir {
+    margin-left: 43rem;
+  }
+  body header .but-sec:hover, body header .but-sec:active, body header .but-sec:focus {
+    font-family: "Ubuntu", sans-serif;
+    width: 10%;
+    background: white;
+    border-radius: 5.5rem;
+    height: 3.9rem;
+    border: 0;
+    outline: none;
+  }
+  body header .but-sec:hover a, body header .but-sec:hover a:link, body header .but-sec:active a, body header .but-sec:active a:link, body header .but-sec:focus a, body header .but-sec:focus a:link {
+    text-decoration: none;
+    color: #ff3d54;
+  }
+  body header .menu-bar {
+    display: none;
+  }
+  body header img {
+    width: 7%;
+    margin: 4rem 0;
+    margin-left: 11rem;
+  }
+  body header h1 {
+    margin-bottom: -1rem;
+    font-size: 4.7rem;
+  }
+  body header h1 br {
+    display: none;
+  }
+  body header p {
+    font-size: 1.6rem;
+  }
+  body header p br {
+    display: none;
+  }
+  body main {
+    width: 112%;
+  }
+  body main .m p {
+    font-size: 1.25rem;
+    width: 40rem;
+    text-align: left;
+  }
+  body main .m h2 {
+    font-size: 0.8rem;
+  }
+  body main .m.m1 {
+    padding: 4rem 0;
+    height: 60rem;
+    background-image: url("images/illustration-editor-desktop.svg");
+    background-size: 63%;
+    background-repeat: no-repeat;
+    background-position: 150% center;
+  }
+  body main .m.m1 h2 {
+    font-size: 3rem;
+  }
+  body main .m.m2 {
+    margin-left: 12rem;
+  }
+  body main .m.m2 img {
+    display: none;
+  }
+  body main .m.m2 h2 {
+    margin-top: -49rem;
+    font-size: 0.8rem;
+    text-align: left;
+  }
+  body main .m.m3 {
+    margin-left: 12rem;
+  }
+  body main .m.m3 h2 {
+    text-align: left;
+  }
+  body main .m.m4 {
+    height: 35rem;
+    background-position: -31% 95%;
+    background-size: 60%;
+  }
+  body main .m.m4 img {
+    top: -5.5rem;
+    left: -22rem;
+    max-width: 45%;
+    height: 140%;
+  }
+  body main .m.m4 h2 {
+    font-size: 2.9rem;
+    margin-left: 52rem;
+    margin-top: -20rem;
+    margin-bottom: 0.4rem;
+  }
+  body main .m.m4 p {
+    margin-left: 60rem;
+  }
+  body main .m.m5 {
+    background-image: url("images/illustration-laptop-desktop.svg");
+    background-position: -24rem center;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    height: 80rem;
+    margin-top: -18rem;
+    padding-top: 41rem;
+    margin-bottom: 10rem;
+  }
+  body main .m.m5 img {
+    display: none;
+  }
+  body main .m.m5 p {
+    margin-left: 60rem;
+  }
+  body main .m.m5 h2 {
+    margin-left: 30rem;
+    font-size: 2rem;
+  }
+  body main .m.m6 p {
+    margin-left: 60rem;
+  }
+  body main .m.m6 h2 {
+    margin-top: -65rem;
+    margin-left: 28rem;
+  }
+  body footer {
+    margin-top: 35rem;
+    width: 112%;
+    display: flex;
+  }
+  body footer .attribution {
+    font-size: 3rem;
+    font-weight: bolder;
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+  }
+  body footer img {
+    width: 7rem;
+    height: 4rem;
+    margin-left: 4rem;
+    margin-top: -8rem;
+    padding: 10rem;
+    margin-right: 0;
+  }
+  body footer ul {
+    margin-left: 13rem;
+    text-align: left;
+  }
+  body footer ul li {
+    margin-bottom: 1rem;
+  }
+  body footer .shift {
+    margin-left: 2rem;
+  }
+}
+header {
+  font-size: 1.5rem;
+  background-image: url("images/bg-pattern-intro.svg"), linear-gradient(135deg, #ff8f70, #ff3d54);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 50% 50%, center;
+  color: white;
+  border-bottom-left-radius: 9rem;
+  margin-bottom: 7rem;
+}
+header img {
+  margin: 2.5rem 2rem;
+  width: 20%;
+}
+header .menu-bar {
+  position: absolute;
+  top: 2.7rem;
+  right: 2rem;
+}
+header .menu-bar div {
+  height: 0.2rem;
+  border: none;
+  margin-bottom: 0.4rem;
+  background: white;
+  width: 2.5rem;
+}
+header nav {
+  box-shadow: 1rem 1rem 1.5rem rgba(0, 9, 30, 0.1), -1rem -1rem 1.5rem rgba(0, 9, 30, 0.1);
+  position: absolute;
+  width: 90%;
+  display: none;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  text-align: center;
+  background: white;
+  margin: 1.5rem;
+  margin-top: 0;
+  color: #25252d;
+  border-radius: 0.5rem;
+}
+header nav ul {
+  font-family: "Ubuntu", sans-serif;
+  list-style-type: none;
+  margin: 2rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+header nav ul li {
+  display: none;
+  background: rgba(75, 88, 98, 0.1);
+  margin: 0;
+  padding: 0.5rem;
+  font-size: 0.8em;
+  color: #4b5862;
+}
+header nav ul .fir {
+  margin-top: 0.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+header nav ul li:last-child {
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+header nav ul span {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+header nav ul span::after {
+  content: url("images/icon-arrow-dark.svg");
+}
+header nav ul span:active::after,
+header nav ul span:focus::after,
+header nav ul span:hover::after {
+  content: "^";
+}
+header nav aside a, header nav aside a:link {
+  text-decoration: none;
+  color: #25252d;
+}
+header nav aside a:hover, header nav aside a:active, header nav aside a:focus {
+  color: #4b5862;
+  outline: none;
+}
+header nav hr {
+  width: calc(100% - 4.5rem);
+  margin-bottom: 2rem;
+  border: none;
+  background: rgba(75, 88, 98, 0.1);
+  height: 0.2rem;
+}
+header nav button {
+  margin: 1rem;
+  margin-bottom: 2rem;
+  font-family: "Ubuntu", sans-serif;
+  width: 40%;
+  background: linear-gradient(90deg, #ff8f70, #ff3d54);
+  border-radius: 5.5rem;
+  height: 3.9rem;
+  border: none;
+  outline: none;
+}
+header nav button a, header nav button a:link {
+  text-decoration: none;
+  color: white;
+}
+header nav button:hover, header nav button:focus, header nav button:active {
+  font-family: "Ubuntu", sans-serif;
+  width: 40%;
+  background: transparent;
+  border-radius: 5.5rem;
+  height: 3.9rem;
+  border: 0.1rem solid #ff3d54;
+  outline: none;
+}
+header nav button:hover a, header nav button:hover a:link, header nav button:focus a, header nav button:focus a:link, header nav button:active a, header nav button:active a:link {
+  text-decoration: none;
+  color: #ff3d54;
+}
+header h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+header p {
+  text-align: center;
+  font-size: 1.5rem;
+}
+header button {
+  font-family: "Ubuntu", sans-serif;
+  width: 38%;
+  background: white;
+  border-radius: 5.5rem;
+  height: 3.9rem;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  margin-top: 2.5rem;
+}
+header button a, header button a:link {
+  text-decoration: none;
+  color: #ff3d54;
+}
+header button:hover, header button:focus, header button:active {
+  font-family: "Ubuntu", sans-serif;
+  width: 38%;
+  background: transparent;
+  border-radius: 5.5rem;
+  height: 3.9rem;
+  border: 0.1rem solid white;
+  outline: none;
+}
+header button:hover a, header button:hover a:link, header button:focus a, header button:focus a:link, header button:active a, header button:active a:link {
+  text-decoration: none;
+  color: white;
+}
+header .but-fir {
+  margin-left: 3rem;
+}
+header .but-sec {
+  margin-left: 1rem;
+}
+header div {
+  height: 15rem;
+}
+
+main .m {
+  text-align: center;
+  justify: center;
+}
+main .m h2 {
+  margin: 3rem;
+  margin-bottom: 2rem;
+  color: #3f4164;
+  font-size: 2.1rem;
+}
+main .m p {
+  line-height: 2;
+  margin: 1rem 3rem;
+  color: #4b5862;
+  font-size: 1.2rem;
+}
+main .m.m4 {
+  background-image: url("images/bg-pattern-circles.svg");
+  background-color: #2c2d3f;
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-position: center -1100%;
+  height: 50rem;
+  margin-bottom: 5rem;
+  border-radius: 0 9rem;
+}
+main .m.m4 h2 {
+  font-size: 3.5rem;
+  color: white;
+  position: relative;
+  top: -20rem;
+}
+main .m.m4 p {
+  color: white;
+  position: relative;
+  top: -18.5rem;
+}
+main .m.m4 img {
+  max-width: 100%;
+  position: relative;
+  top: -16rem;
+}
+main .m.m2 img {
+  max-width: 100%;
+  margin-top: 2rem;
+}
+main .m.m3 {
+  margin-bottom: 22rem;
+}
+main .m.m5 img {
+  max-width: 100%;
+}
+
+footer {
+  font-family: "Ubuntu", sans-serif;
+  background: #25252d;
+  border-radius: 0 9rem 0 0;
+  margin-top: 9rem;
+  text-align: center;
+}
+footer img {
+  width: 25%;
+  margin: 5rem 0;
+}
+footer ul:first {
+  margin-top: 0;
+}
+footer ul {
+  list-style-type: none;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1rem;
+}
+footer ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+footer ul div {
+  height: 2.5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
