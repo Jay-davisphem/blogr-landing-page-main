@@ -20,11 +20,10 @@ body {
   margin: 0;
 }
 
-@media only screen and (max-width: 375px) {
-  body {
-    max-width: 375px;
-  }
+body {
+  max-width: 375px;
 }
+
 @media only screen and (min-width: 376px) {
   body {
     max-width: 1440px;
@@ -44,8 +43,23 @@ body {
     margin-right: 0;
   }
   body header nav ul {
-    margin-right: 0;
-    padding-right: 2rem;
+    width: 10%;
+  }
+  body header nav ul li {
+    text-decoration: none;
+    background-color: white;
+    width: 9rem;
+    padding-right: 3rem;
+    padding-top: 0;
+  }
+  body header nav ul li:nth-of-type(1) {
+    padding-top: 2rem;
+  }
+  body header nav ul .l {
+    padding-bottom: 2rem;
+  }
+  body header nav ul span:hover, body header nav ul span:active, body header nav ul span:focus {
+    text-decoration: underline white;
   }
   body header nav hr {
     display: none;
@@ -113,6 +127,7 @@ body {
   }
   body header .but-sec {
     border: 0.1rem solid white;
+    width: 10%;
     background: transparent;
   }
   body header .but-sec a {
@@ -266,7 +281,7 @@ body {
   }
   body footer ul {
     margin-left: 13rem;
-    text-align: left;
+    text-align: center;
   }
   body footer ul li {
     margin-bottom: 1rem;
@@ -380,7 +395,7 @@ header nav button a, header nav button a:link {
 }
 header nav button:hover, header nav button:focus, header nav button:active {
   font-family: "Ubuntu", sans-serif;
-  width: 40%;
+  width: 38%;
   background: transparent;
   border-radius: 5.5rem;
   height: 3.9rem;
@@ -415,7 +430,24 @@ header button a, header button a:link {
   text-decoration: none;
   color: #ff3d54;
 }
-header button:hover, header button:focus, header button:active {
+header .but-fir {
+  margin-left: 3rem;
+}
+header .but-fir:hover, header .but-fir:focus, header .but-fir:active {
+  font-family: "Ubuntu", sans-serif;
+  width: 38%;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 5.5rem;
+  height: 3.9rem;
+  border: 0;
+  outline: none;
+}
+header .but-fir:hover a, header .but-fir:hover a:link, header .but-fir:focus a, header .but-fir:focus a:link, header .but-fir:active a, header .but-fir:active a:link {
+  text-decoration: none;
+  color: white;
+}
+header .but-sec {
+  margin-left: 1rem;
   font-family: "Ubuntu", sans-serif;
   width: 38%;
   background: transparent;
@@ -424,15 +456,22 @@ header button:hover, header button:focus, header button:active {
   border: 0.1rem solid white;
   outline: none;
 }
-header button:hover a, header button:hover a:link, header button:focus a, header button:focus a:link, header button:active a, header button:active a:link {
+header .but-sec a, header .but-sec a:link {
   text-decoration: none;
   color: white;
 }
-header .but-fir {
-  margin-left: 3rem;
+header .but-sec:hover, header .but-sec:focus, header .but-sec:active {
+  font-family: "Ubuntu", sans-serif;
+  width: 38%;
+  background: white;
+  border-radius: 5.5rem;
+  height: 3.9rem;
+  border: none;
+  outline: none;
 }
-header .but-sec {
-  margin-left: 1rem;
+header .but-sec:hover a, header .but-sec:hover a:link, header .but-sec:focus a, header .but-sec:focus a:link, header .but-sec:active a, header .but-sec:active a:link {
+  text-decoration: none;
+  color: #ff3d54;
 }
 header div {
   height: 15rem;
